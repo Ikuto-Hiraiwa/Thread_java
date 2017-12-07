@@ -49,23 +49,9 @@ class HeavyProcessPane extends JPanel {
 	}
 	private static Integer HeavyTask(Integer n) {
 		try { 
-			int lim = 2;
-			boolean flag = false;
-			int count = 0;
-			int i = 0;
-			int j =0;
-			while(count != n){					
-				i +=2;
-				for(j=3;j*j<=i;j+=2){
-					if(i%j==0){
-						flag = false;
-						break;
-					}
-				}
-				if(flag) {
-					count+=1;
-				}
-			}
+
+			//ここにn番目の素数求めるプログラム入れろ
+			
 			TimeUnit.SECONDS.sleep(0);
 		}catch (InterruptedException e) {
 			e.printStackTrace();
