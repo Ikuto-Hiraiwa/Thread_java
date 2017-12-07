@@ -80,7 +80,7 @@ class MyPane extends JPanel implements Runnable{
 				setCursor(null);
 			}
 		});
-		JPanel bpanel = new JPanel( ); 
+		/*JPanel bpanel = new JPanel( ); 
 		npanel.add(bpanel,"South");
 		bpanel.setLayout(new GridLayout(2, 1));
 		JLabel label = new JLabel("Not save");
@@ -125,7 +125,7 @@ class MyPane extends JPanel implements Runnable{
 			}catch(Exception ex) {
 				ex.printStackTrace();
 			}
-		});
+		});*/
 	}
 
 	void startThread ( ) {
